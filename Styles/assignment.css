@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*Shared Styles--------------------------------------  */
+
+
+    .explore-button{
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+        background: rgb(0, 106, 80);
+        padding: 17px 34px;
+        font-size: 18px;
+        font-weight: 600;
+        border-style: none;
+    }
+    .section-description{
+        color: rgba(14, 14, 14, 0.7);
+        font-size: 16px;
+        font-weight: 400;
+    }
+  /* Header Styles------------------------------------ */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 160px;
+  }
+  .nav-title{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  #sign-in{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  /* Hero section */
+  .banner-title-1{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+  }
+  .banner-title-2{
+    font-size: 56px;
+    font-weight: 700;
+  }
+  .banner{
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    margin: 0px 160px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 59.99px;
+  }
+  .banner-content{
+    max-width: 622px;
+    
+  }
+  .banner-image{
+    width: 475px;
+    height: 400px;
+  }
+
+  /* Future-vision-Styles */
+  main{
+    margin: 0 160px;
+  }
+  .vision-container{
+    display: flex;
+    column-gap: 24px;
+  }
