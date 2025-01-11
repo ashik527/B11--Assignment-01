@@ -16,10 +16,35 @@
         font-weight: 600;
         border-style: none;
     }
+    .learn-button{
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        border-style: none;
+        padding: 11px 20px;
+    }
+    .primary-button{
+      border-radius: 8px;
+      color: rgb(255, 255, 255);
+      background: rgb(0, 106, 80);
+      padding: 17px 34px;
+      font-size: 18px;
+      font-weight: 600;
+      border-style: none;
+  }
     .section-description{
         color: rgba(14, 14, 14, 0.7);
         font-size: 16px;
         font-weight: 400;
+    }
+    .news-title{
+      color: rgba(14, 14, 14, 0.8);
+      font-size: 32px;
+      font-weight: 700;
+    }
+    .news-card-icon-image{
+      height: 40px;
+      width: 134px;
     }
   /* Header Styles------------------------------------ */
   nav{
@@ -70,4 +95,81 @@
   .vision-container{
     display: flex;
     column-gap: 24px;
+    padding: 32px;
+
   }
+  .vision{
+    box-sizing: border-box;
+    border-radius: 16px;
+    height: 325px;
+    width: 411px;
+    padding: 24px;
+
+  }
+  .digital{
+    background-color: rgba(84, 144, 245, 0.2);
+  }
+  .digital .learn-button{
+    background: rgb(84, 144, 245);
+    color: white;
+  }
+  .green{
+    background-color: rgb(198, 228, 214);
+  }
+  .green .learn-button{
+    background: rgb(9, 161, 92);
+    color: white;
+  }
+  .modern{
+    background-color: rgb(247, 235, 207);
+  }
+  .modern .learn-button{
+    background: rgb(255, 194, 57);
+    color: white;
+  }
+  .yunus-speech{
+    background-image: url(../Images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:top left;
+    padding: 48px 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+  }
+  /* Recent-news Styles */
+  .news-card-1{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: rgb(238, 234, 233);
+    padding: 48px;
+  }
+.news-card-image-1{
+  margin-right: 32px;
+}
+.news-card-image-2{
+  margin-left: 32px;
+}
+.date-span{
+  margin-right: 12px;
+}
+
+.news-card-2{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: rgb(238, 234, 233);
+  padding: 48px;
+}
+.news-card-3{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: rgb(238, 234, 233);
+  padding: 48px;
+}
+.news-card-image-3{
+  margin-right: 32px;
+}
+.news-card-1,.news-card-2,.news-card-3{
+  margin-top: 24px;
+}
